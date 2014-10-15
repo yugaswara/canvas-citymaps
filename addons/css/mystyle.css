@@ -1,0 +1,298 @@
+#lokasi img, #gmap img, #map img, .map img, .map_canvas img { 
+	max-width: none !important; 
+	height: auto !important; 
+	background: none !important;
+	border: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#post-author {
+  display:none!important;
+}
+a.bold {
+  font-weight: bold;
+  color: #009a00 !important;
+}
+
+div#link-lokasi {
+  text-align:center;
+  margin: 10px;
+}
+#contact-page input, #contact-page textarea, .contact-form input, .contact-form textarea {
+    border: 1px solid #009a00!important;
+}
+#footer-widgets-container {
+    background-color: #F0F0F0;
+    border-top: 1px solid #00C800;
+  }
+.cmb-type-pw_map .map {
+    border: 0px solid #F0EDE5 !important;
+  }
+/* 8.5.1 Single lokasi Item */
+body.single-lokasi.one-col #post-gallery,
+body.single-lokasi.one-col .post-embed {
+  float: left !important;
+  margin-bottom: 20px !important;
+  width: 100% !important;
+}
+/* 8.5.1 Single laporan Item */
+body.single-laporan.one-col #post-gallery,
+body.single-laporan.one-col .post-embed {
+  float: left !important;
+  margin-bottom: 20px !important;
+  width: 100% !important;
+}
+body.single-lokasi.two-col-left #post-gallery,
+body.single-lokasi.two-col-right #post-gallery,
+body.single-lokasi.two-col-middle #post-gallery,
+body.single-lokasi.three-col-left #post-gallery,
+body.single-lokasi.three-col-right #post-gallery,
+body.single-lokasi.three-col-middle #post-gallery,
+body.single-lokasi.two-col-left .post-embed,
+body.single-lokasi.two-col-right .post-embed,
+body.single-lokasi.two-col-middle .post-embed,
+body.single-lokasi.three-col-left .post-embed,
+body.single-lokasi.three-col-right .post-embed,
+body.single-lokasi.three-col-middle .post-embed {
+  float: none !important;
+  margin-bottom: 20px !important;
+}
+
+/*body.single-lokasi .hentry {
+  float: right !important;
+  width: 40% !important;
+}*/
+body.single-lokasi.two-col-left .hentry,
+body.single-lokasi.two-col-right .hentry,
+body.single-lokasi.two-col-middle .hentry,
+body.single-lokasi.three-col-left .hentry,
+body.single-lokasi.three-col-right .hentry,
+body.single-lokasi.three-col-middle .hentry {
+  float: none !important;
+  width: auto !important;
+}
+  /* Set single lokasi item from two to one column on mobile */
+  body.single-lokasi.one-col-980 #post-gallery,
+  body.single-lokasi.one-col-980 .post-embed {
+    width: 100% !important;
+    float: none !important;
+  }
+  body.single-lokasi .hentry {
+    float: none !important;
+    width: 100% !important;
+  }
+  
+  /* lokasi layout */
+  body.single-lokasi.one-col #post-gallery,
+  body.single-lokasi.one-col .post-embed {
+    width: 57% !important;
+  }
+  body.single-lokasi.one-col-980 #post-gallery,
+  body.single-lokasi.one-col-980 .post-embed {
+    width: 57% !important;
+  }
+  body.single-lokasi.one-col-960 #post-gallery,
+  body.single-lokasi.one-col-960 .post-embed {
+    width: 57% !important;
+  }
+  body.single-lokasi.one-col-940 #post-gallery,
+  body.single-lokasi.one-col-940 .post-embed {
+    width: 55% !important;
+  }
+  body.single-lokasi.one-col-880 #post-gallery,
+  body.single-lokasi.one-col-880 .post-embed {
+    width: 55% !important;
+  }
+  body.single-lokasi.one-col-760 #post-gallery,
+  body.single-lokasi.one-col-760 .post-embed {
+    width: 45% !important;
+  }
+  
+  /* lokasi layout */
+  body.single-laporan.one-col #post-gallery,
+  body.single-laporan.one-col .post-embed {
+    width: 57% !important;
+  }
+  body.single-laporan.one-col-980 #post-gallery,
+  body.single-laporan.one-col-980 .post-embed {
+    width: 57% !important;
+  }
+  body.single-laporan.one-col-960 #post-gallery,
+  body.single-laporan.one-col-960 .post-embed {
+    width: 57% !important;
+  }
+  body.single-laporan.one-col-940 #post-gallery,
+  body.single-laporan.one-col-940 .post-embed {
+    width: 55% !important;
+  }
+  body.single-laporan.one-col-880 #post-gallery,
+  body.single-laporan.one-col-880 .post-embed {
+    width: 55% !important;
+  }
+  body.single-laporan.one-col-760 #post-gallery,
+  body.single-laporan.one-col-760 .post-embed {
+    width: 45% !important;
+  }
+
+  /* Set single laporan item from two to one column on mobile */
+  body.single-laporan.one-col-980 #post-gallery,
+  body.single-laporan.one-col-980 .post-embed {
+    width: 100% !important;
+    float: none !important;
+  }
+  body.single-laporan .hentry {
+    float: none !important;
+    width: 100% !important;
+  }
+
+
+  #header { display: none; }
+#header {
+padding-top: 20px !important;
+padding-bottom: 20px!important;
+}
+/*#content {
+  padding-top: 10px !important;
+}*/
+
+#top .searchform { background: #fff; margin-bottom: 5px; height: 22px; }
+form#searchform {
+background: none;
+border-width: 0;
+}
+ 
+form#searchform input#s {
+border-color: #CCCCCC #EFEFEF #EFEFEF #CCCCCC;
+border-style: solid;
+border-width: 1px;
+color: #777777;
+width: 60%;
+}
+ 
+form#searchform .screen-reader-text {
+display: none;
+}
+
+
+#portfolio .group.portfolio-img.sale .price {
+  background: #2ab6d6;
+}
+#portfolio .group.portfolio-img.sale .price:after {
+  border-color: #0894b4 transparent transparent transparent;
+}
+#portfolio .group.portfolio-img a:hover h3 {
+  color: #f37324;
+}
+#portfolio .group.portfolio-img a:hover {
+  box-shadow: inset 0 0 0 9em rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: inset 0 0 0 9em rgba(255, 255, 255, 0.8);
+}
+#portfolio .group.portfolio-img a:hover img {
+  opacity: 0.4;
+  filter: alpha(opacity=@opacity * 100);
+}
+#portfolio .group.portfolio-img {
+  position: relative;
+  -webkit-border-top-left-radius: 0.382em;
+  -webkit-border-top-right-radius: 0.382em;
+  border-top-left-radius: 0.382em;
+  border-top-right-radius: 0.382em;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #ffffff;
+  -webkit-transition: all ease-in-out 0.35s;
+  -moz-transition: all ease-in-out 0.35s;
+  -ms-transition: all ease-in-out 0.35s;
+  -o-transition: all ease-in-out 0.35s;
+  transition: all ease-in-out 0.35s;
+}
+#portfolio .group.portfolio-img .price {
+  position: absolute;
+  bottom: 4.618em;
+  left: -0.58em;
+  background: #f37324;
+  padding: .327em .857em;
+  color: #fff;
+  display: block;
+  -webkit-border-bottom-right-radius: 0.382em;
+  border-bottom-right-radius: 0.382em;
+  -webkit-border-top-left-radius: 0.382em;
+  -webkit-border-top-right-radius: 0.382em;
+  border-top-left-radius: 0.382em;
+  border-top-right-radius: 0.382em;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  font-weight: 700;
+  font-size: 90%;
+}
+#portfolio .group.portfolio-img .price .from {
+  font-weight: 400;
+}
+#portfolio .group.portfolio-img .price:after {
+  content: "";
+  display: block;
+  border-width: .618em 0 0 .618em;
+  border-color: #d15102 transparent transparent transparent;
+  border-style: solid;
+  position: absolute;
+  left: 0;
+  bottom: -0.58em;
+}
+
+/*static head nav contact*/
+/*#top {
+    z-index: 10001;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    max-height: 70px;
+}
+#header {
+  margin-top: 30px !important;
+}
+#header .widget {
+  margin: 0px !important;
+}
+ #wrapper .woo-sc-button {
+text-transform: none!important;
+border-radius: 0px;
+  }*/
+
+
+  /* Portfolio layout */
+  body.single-portfolio.one-col #post-gallery,
+  body.single-portfolio.one-col .post-embed {
+    width: 57% !important;
+  }
+  body.single-portfolio.one-col-980 #post-gallery,
+  body.single-portfolio.one-col-980 .post-embed {
+    width: 57% !important;
+  }
+  body.single-portfolio.one-col-960 #post-gallery,
+  body.single-portfolio.one-col-960 .post-embed {
+    width: 57% !important;
+  }
+  body.single-portfolio.one-col-940 #post-gallery,
+  body.single-portfolio.one-col-940 .post-embed {
+    width: 55% !important;
+  }
+  body.single-portfolio.one-col-880 #post-gallery,
+  body.single-portfolio.one-col-880 .post-embed {
+    width: 55% !important;
+  }
+  body.single-.one-col-760 #post-gallery,
+  body.single-portfolio.one-col-760 .post-embed {
+    width: 45% !important;
+  }
+
+  body.single-portfolio .hentry {
+    float: none !important;
+    width: 100% !important;
+}
+
+div.home-box {
+  background: url("bg-box.png") no-repeat 50% 10%; }
+}
